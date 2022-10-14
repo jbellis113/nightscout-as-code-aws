@@ -65,7 +65,7 @@ variable "mongo_image_tag" {
 # have not been tested outside of North American regions.
 variable "aws_region" {
   type        = string
-  default     = "us-east-2"
+  default     = "ap-southeast-2"
   description = "The AWS region where you would like to run your Nightscout to run."
 }
 
